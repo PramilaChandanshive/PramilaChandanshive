@@ -1,134 +1,92 @@
-# 🎯 AI Course Planner – Smart Study Assistant
+<div align="center" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); padding: 40px 20px; border-radius: 15px;">
 
-> An intelligent Python desktop application that generates personalized study timetables by analyzing your daily routine and scheduling courses **only after you wake up** (respecting sleep hours).
+<h1>
+  Hi there, I'm <span style="color:#36BCF7;">Pramila Chandanshive</span>! 👋
+</h1>
 
-![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python&logoColor=white)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Active-success)
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF6EC7&center=true&vCenter=true&width=600&lines=Final+Year+B.Tech+Student;Computer+Science+%26+Engineering;AI+%26+Data+Science+Specialization;Diploma+in+Information+Technology" alt="Typing SVG" />
+</a>
 
----
+<br><br>
 
-## 📌 Overview
+<img src="https://img.shields.io/badge/B.Tech-CSE%20(AI%20%26%20DS)-36BCF7?style=for-the-badge&logo=googlescholar&logoColor=white" />
+<img src="https://img.shields.io/badge/Diploma-Information%20Technology-FF6EC7?style=for-the-badge&logo=bookstack&logoColor=white" />
 
-**AI Course Planner** solves a common student problem: *"When should I study?"*
-
-Most learners have irregular routines (college, work, sleep, meals) and struggle to find consistent study time. This app analyzes your daily schedule, detects free time slots using an **interval-merging algorithm**, and automatically assigns course study sessions — **while guaranteeing no sessions during sleep hours**.
-
-It's essentially a mini data platform: **ingest → transform → persist → analyze → notify**.
+</div>
 
 ---
 
-## ✨ Features
+<div align="center">
 
-### 🔐 User Authentication
-- Multi-user registration with email validation (regex)
-- Login via email **or** username
-- Password strength check (min 6 characters)
-- Persistent JSON-based storage with atomic writes
+<h3 style="color:#FFD700;">🎓 Education</h3>
 
-### 📅 Daily Schedule Management
-- Add daily activities (sleep, college, work, meals, travel)
-- Handles **overnight activities** (e.g., sleep 23:00 → 07:00)
-- Validates start time < end time for each activity
+<p>
+  <strong style="color:#00E5FF;">B.Tech in Computer Science & Engineering (AI & Data Science)</strong><br>
+  <em style="color:#AAAAAA;">Final Year</em>
+</p>
 
-### 🧠 AI Scheduling Engine
-- **Interval-merging algorithm** to detect free slots
-- Handles overlapping intervals
-- Schedules courses **only AFTER wake-up time** (post-sleep)
-- Recommends optimal study hours based on free-slot analysis
+<p>
+  <strong style="color:#00E5FF;">Diploma in Information Technology</strong><br>
+  <em style="color:#AAAAAA;">Completed</em>
+</p>
 
-### 📚 Multiple Course Addition Modes
-| Mode | Description |
-|------|-------------|
-| **Quick Add** | Choose from 6+ predefined courses |
-| **Custom Course** | Create your own with name, hours, lessons |
-| **Smart Plan** | Set deadline (e.g., "Learn Python in 4 days") — AI distributes hours automatically |
-
-### 📊 Dynamic Timetable
-- 7-day × 24-hour grid (2-hour blocks)
-- **Color-coded cells** based on progress:
-  - 😴 Blue = Sleep / Rest time
-  - 🔴 Red = Busy (college/work)
-  - 🟡 Yellow = Course in progress (30-70%)
-  - 🟢 Green = Course advanced (>70%)
-  - ✨ Gray = Free time
-- Scrollable with mousewheel support
-
-### 📈 Progress Tracking
-- Daily study minutes logged
-- Lessons completed counter
-- Overall progress percentage
-- Total study time
-- **Streak system** (consecutive days)
-- **Achievements**: 3-Day Streak, 7-Day Streak, 5+ Hours Studied
-
-### 🔔 Smart Notifications
-- Study reminders at scheduled hours
-- Morning motivation at 7:00 AM (after wake-up)
-- Course completion alerts
-- **Multithreaded** background worker (doesn't block GUI)
-- **No notifications during sleep hours** (23:00 – 07:00)
+</div>
 
 ---
 
-## 🏗️ Architecture
-┌─────────────────┐ ┌──────────────────┐ ┌─────────────────┐
-│ User Input │────▶│ Transform Layer │────▶│ Persistent │
-│ (Routine + │ │ • Interval │ │ Store │
-│ Courses) │ │ Merging │ │ (JSON) │
-│ │ │ • Free-slot │ │ │
-│ │ │ Detection │ │ │
-└─────────────────┘ └──────────────────┘ └─────────────────┘
-│
-▼
-┌─────────────────┐ ┌──────────────────┐ ┌─────────────────┐
-│ Notifications │◀────│ Analytics │◀────│ Timetable │
-│ (Multithread) │ │ Aggregator │ │ Visualizer │
-│ │ │ • Streaks │ │ • Color-coded │
-│ │ │ • Progress % │ │ • Progress │
-└─────────────────┘ └──────────────────┘ └─────────────────
+<div align="center">
+
+<h3 style="color:#FFD700;">🚀 About Me</h3>
+
+<p style="color:#E0E0E0;">
+I am a passionate and dedicated developer currently in my final year of engineering. My journey in tech began with a strong foundation in <span style="color:#36BCF7;">Information Technology</span>, which sparked my interest in programming and logic. Today, I am expanding that knowledge by specializing in <span style="color:#FF6EC7;">Artificial Intelligence and Data Science</span>. I am eager to apply my academic and practical skills to real-world problems and am actively looking for opportunities in Data Science, AI, and Software Engineering.
+</p>
+
+<ul style="list-style-type: none; padding: 0; color:#E0E0E0;">
+  <li>🔭 I’m currently working on my <span style="color:#FFD700;">Final Year Capstone Project</span></li>
+  <li>🧠 I have strong knowledge in <span style="color:#FFD700;">Java, Database, DSA, Python, Machine Learning, and SQL</span></li>
+  <li>👯 I’m looking to collaborate on <span style="color:#FFD700;">Open Source AI/ML and Web Development Projects</span></li>
+  <li>💬 Ask me about <span style="color:#FFD700;">Java, Python, Machine Learning, SQL, Database, or DSA</span></li>
+  <li>📫 How to reach me: <span style="color:#36BCF7;">pramilachandanshive1@gmail.com</span></li>
+  <li>⚡ Fun fact: <span style="color:#FFD700;">I love turning complex data into simple, actionable insights!</span></li>
+</ul>
+
+</div>
 
 ---
 
-### Data Flow Pipeline
-1. **Extract** — Capture user's daily routine as raw time-interval records
-2. **Transform** — Merge overlapping intervals, split overnight activities, compute free slots
-3. **Load** — Persist structured schedules to JSON with atomic writes
-4. **Analyze** — Aggregate study minutes, streaks, completion percentages
-5. **Notify** — Run background jobs to send reminders and achievements
+<div align="center">
+
+<h3 style="color:#FFD700;">🛠️ Tech Stack & Tools</h3>
+
+<p style="color:#36BCF7;"><strong>Languages</strong></p>
+<img src="https://skillicons.dev/icons?i=python,java,cpp,mysql" alt="Languages" />
+
+<p style="color:#36BCF7;"><strong>AI & Data Science</strong></p>
+<img src="https://skillicons.dev/icons?i=tensorflow,sklearn" alt="AI and Data Science" />
+<br>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+
+<p style="color:#36BCF7;"><strong>Web & Tools</strong></p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Web and Tools" />
+
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+<div align="center">
 
-| Layer | Technology |
-|-------|-----------|
-| **Language** | Python 3.7+ |
-| **GUI** | Tkinter (built-in) |
-| **Data Storage** | JSON (file-based) |
-| **Concurrency** | `threading` (daemon threads) |
-| **Notifications** | `plyer` |
-| **Time Logic** | `datetime` |
-| **Validation** | `re` (regex) |
+<h3 style="color:#FFD700;">🤝 Connect with Me</h3>
 
----
+<a href="https://www.linkedin.com/in/pramila-c-ab3103256">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:pramilachandanshive1@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
-## 🚀 Installation
+<br><br>
 
-### Prerequisites
-- Python 3.7 or higher
-- pip package manager
-
-### Steps
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/AI-Course-Planner.git
-cd AI-Course-Planner
-
-# 2. Install dependencies
-pip install plyer
-
-# 3. Run the application
-python course_planner.py
+<img src="https://komarev.com/ghpvc/?username=PramilaChandanshive&label=Profile%20Views&color=36BCF7&style=for-the-badge" alt="Profile Views" />
